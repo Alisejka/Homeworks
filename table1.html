@@ -1,0 +1,122 @@
+<html>
+<head>
+	<link href="table1.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<table>
+
+<caption>Меню</caption>
+
+<thead class="zagolovok">
+<tr>
+	<th rowspan="2">Кухня</th>
+	<th colspan="2">Холодные блюда</th>
+	<th colspan="2">Горячие блюда</th>
+	<th rowspan="2">Десерты</th> 
+</tr>
+<tr>
+	<th>Салаты</th>	
+	<th>Закуски</th>
+	<th>Первые блюда</th>
+	<th>Вторые блюда</th>
+</tr>
+</thead>
+<tr>
+	<td rowspan="2" class="zagolovok">Русская</th>
+	<td>Винегрет</td>
+	<td>Язык с хреном</td>
+	<td>Щи с квашеной капустой</td>
+	<td>Вареники с картошкой</td>
+	<td>Печеные яблоки с медом</td>
+</tr>
+<tr>
+	<td>Оливье</td>
+	<td>Студень говяжий</td>
+	<td>Рассольник домашний</td>
+	<td>Караси запеченые в сметане</td>
+	<td>Блинчатый пирог</td>
+<tr>
+	<td rowspan="2" class="zagolovok">Французская
+	<td>Вогезский салат</td>
+	<td>Рийет из курицы</td>
+	<td>Баклажанный крем-суп "Ренуар"</td>
+	<td>Картофель огратен</td>	
+	<td>Бриоши</td>
+</tr>
+<tr>
+	<td>Салат "Панзанелла"</td>	
+	<td>Делисьез из сыра</td>
+	<td>Французский тыквенный суп</td>
+	<td>Гратин из птицы</td>
+	<td>Лигурийский лимонный пирог</td>
+</tr>
+</table>
+
+<Form id="form1" name="form_name">
+<!-- <form action="/action.php"> -->
+	First name:<br>
+	<input type="text" name="firstname" value="Ivan">
+	<br>
+	Last name:<br>
+	<input type="text" name="lastname" title="Surname" value="Petrov">
+	<br><br>
+	<input type="submit" value="Отправить">
+</form>
+
+<form>
+		<label for="first_row> Мужской</label>
+		<input type="radio" name="gender" title="male" value="male" checked>Мужской<br>
+		<input type="radio" name="gender" title="female" value="female" checked>Женский<br>
+		<input type="radio" name="gender" title="other" value="other" checked>Иной<br>
+</form>
+<form>
+	<h3> Fieldset</h3>
+	<fieldset style="width:30%;">
+		<legend> Personal info:</legend>
+		First name:<br>
+		<input type="text" name="firstname" value="Ivan">
+		<br>
+		Last name:<br>
+		<input type="text" name="lastname" title="Surname" value="Petrov">
+		<br><br>
+		<input type="submit" value="Отправить">
+	</fieldset>
+	<br>
+	<br>
+<form>
+	<label>Это описание поля ввода<br>
+		<textarea name="comment" id="comment-field" rows="10" cols="100" placeholder="Введите текст комментария"></textarea>
+	</label>
+	<br>
+	<input type="submit" value="SEND">
+	
+</form>
+<form>
+	<label>
+	<input name="comment" type="password">
+	</label><br>
+	<input type= "submit" value="SEND">
+</form>
+<form action="">
+	<label for="select">Select dropdown</label>
+	<select id="select" name="cars" size="1" multiple> <!--если убрать Multiple, то можно выбрать только один вариант-->
+		<option value="volvo">Volvo</option>
+		<option value="fiat" selected>Fiat</option>
+		<option value="audi">Audi</option>
+		<option value="kia">KIA</option>
+	</select>
+</form>
+<form>
+	<label>
+	<input type="checkbox" name="vehicle1" value="Bike" checked>I have a bike<br>
+	</label><br>
+	<input type="checkbox" id="checkbox2" name="vehicle1" value="Bike">
+	<label for="checkbox2">I have a car</label>
+</form>	
+<form>
+		<input type="button" onclick="alert('Hello World!')" value="Click me!" title="">
+</form>
+	
+</body>
+
+</html>

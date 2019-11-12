@@ -1,0 +1,72 @@
+<html>
+<head>
+	<link href="formHW.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<h1>Registration<h1>
+<div class="registration">
+	<div class="youraccount">
+	<Form id="form1" name="form_name">
+		Your account
+		<br>
+	<!-- <form action="/action.php"> -->
+		Username:<br>
+		<input type="text" name="firstname" value="Ivan">
+		<br>
+		<label>
+		Password <input name="comment" type="password">
+		</label><br>
+		Repeat password:<br>
+		<input name="comment" type="password">
+		<br>
+		<input type="submit" value="Отправить">
+		<br>
+		Email
+		<input type="email" placeholder="Login@domain.com"><br>
+		Profile photo
+	
+	</div>
+	<br>
+	<div id="personal">
+	<legend> Personal info:</legend>
+		First name: 
+		<input type="text" name="firstname" value="">
+		<br>
+		Last name: 
+		<input type="text" name="lastname" title="Surname" value=""><br>
+		Gender: 
+		<input type="radio" name="gender" title="male" value="male" checked>male  
+		<input type="radio" name="gender" title="female" value="female" checked>female  <br>
+		Birthdate:
+		<input type="date" name="bday">
+		<br><br>
+		</div>
+	<div id="additional">
+		<label>Comments<br>
+		<textarea name="comment" id="comment-field" rows="10" cols="100" placeholder="Your text here"></textarea>
+	</label>
+	</div>
+	<div id="subscription"> Subscription <br>
+	<form>
+		<label>
+	<input type="checkbox" name="webskola" value="Webskola" checked>Webskola news<br>
+	</label>
+	<input type="checkbox" id="checkbox2" name="vehicle1" value="Bike">
+	<label for="checkbox2">Digibrand news</label>
+	</form>
+	</div>
+	<div id="security">
+		Please type symbols shown on image
+		<br>
+		<img src="captcha.png" align="left">
+		<input type="text" name="firstname" value="">
+		<br>
+		<br>
+	</div>
+	<form>
+		<input type="submit" value="Send form" align="right">
+	</form>
+</form>
+</div>
+</body>
+</html>

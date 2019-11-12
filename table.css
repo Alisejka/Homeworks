@@ -1,0 +1,27 @@
+table{
+	border-collapse: collapse;
+	width: 100%;
+	caption-side:bottom;
+	empty-cells:hide;
+}
+caption{
+	padding:29px;
+}
+tr:nth-child(even) {
+		background-color:#f2f2f2;
+
+}
+tr:hover{
+	background-color:blue;
+}
+th{
+	padding: 24px;
+	color: pink;
+}
+td:hover{
+	color:violet;
+}
+.bold {
+	font-size:24px;
+	color:yellow;
+}

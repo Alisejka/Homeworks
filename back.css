@@ -1,0 +1,25 @@
+div{
+	padding: 20px;
+	width:60%;
+}
+.block1{
+	width:60%;
+	background-image: url("smile.jpg");
+	background-color:chocolate;
+	padding:50px;
+	height:800px;
+}
+.block2{
+	background-color:#b3d4fc;
+	height:60%;
+}
+.one{
+background-color: hsl(12,60%,50%)
+}
+.two{
+background-color: hsl(12,80%,50%)
+}
+.three{
+background-color: hsl(12,100%,50%)
+}
+

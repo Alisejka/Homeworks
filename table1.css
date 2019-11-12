@@ -1,0 +1,19 @@
+caption{
+	color:red;
+	font-size: 24px;
+	font-weight:bold;
+	padding-bottom:15px;
+}
+.zagolovok{
+	font-weight:bold;
+	font-size:18px;
+	text-align:center;
+}
+table{
+	border-collapse: collapse;
+	background-color:87CEFA;
+}
+th, td{
+	border: 1px solid grey;
+	padding: 5px;
+}

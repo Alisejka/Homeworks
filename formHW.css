@@ -1,0 +1,16 @@
+.registration{
+	width:500px;
+	height:1000px;
+	background-color:khaki;
+	padding-left:30px;
+	padding-top:70px;
+	border: solid 1px orange;
+}
+.youraccount{
+	background-color:white;
+	padding-right: 30px;
+	
+}
+input{
+	border: solid 1px orange;
+}
